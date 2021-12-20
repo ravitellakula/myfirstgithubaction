@@ -23,10 +23,11 @@ on:
       choice2:
         type: choice
         description: Make a choice
+        default: bar {% if github.event.inputs.choice1 == 'bar' }
         options:
-        - foo
+        - foo 
         - bar
-        - baz
+        - baz% endif %}
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
