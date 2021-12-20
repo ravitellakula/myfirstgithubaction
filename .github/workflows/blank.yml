@@ -14,7 +14,7 @@ on:
       boolean:
         type: boolean
         description: True or False
-        default: "Y"
+        default: "True"
       choice1:
         type: choice
         description: Make a choice
