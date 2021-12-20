@@ -11,6 +11,7 @@ on:
       boolean:
         type: boolean
         description: True or False
+        default: true
       choice1:
         type: choice
         required: true
