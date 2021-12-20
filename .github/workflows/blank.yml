@@ -25,7 +25,7 @@ on:
         - bar
         - baz
       choice2:
-        type: choice1
+        type: choice
         description: Make a choice
         options:
         - foo
@@ -55,4 +55,7 @@ jobs:
           echo test, and deploy your project.
       
       - name: Print the input tag to STDOUT
-        run: echo The tag is ${{ github.event.inputs.boolean }}
+        run: |
+          echo The boolean value is ${{ github.event.inputs.boolean }}  
+          echo The choice1 value is ${{ github.event.inputs.choice1 }}  
+          echo The choice2 value is ${{ github.event.inputs.choice2 }}
