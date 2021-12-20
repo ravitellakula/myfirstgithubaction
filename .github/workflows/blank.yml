@@ -28,6 +28,15 @@ on:
         - foo 
         - bar
         - baz% endif %}
+      squad360Id:
+        description: "Enter Squad 360 Id"
+        type: choice
+        required: true
+        default: ""
+        options:
+        - "100212"
+        - "100214"
+        - "100215"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -56,3 +65,4 @@ jobs:
           echo The boolean value is ${{ github.event.inputs.boolean }}  
           echo The choice1 value is ${{ github.event.inputs.choice1 }}  
           echo The choice2 value is ${{ github.event.inputs.choice2 }}
+          echo The Squad360 ID value is ${{ github.event.inputs.choice2 }}
