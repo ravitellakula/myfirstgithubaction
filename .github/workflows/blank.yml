@@ -29,7 +29,7 @@ on:
         - bar
         - baz% endif %}
       squad360Id:
-        description: "Enter Squad 360 Id"
+        description: "Enter Squad 360 Id (100212 - Marvels, 100214 - Events, 100215 - Privacy)"
         type: choice
         required: true
         default: ""
