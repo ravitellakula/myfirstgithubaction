@@ -18,6 +18,7 @@ on:
         default: Y
       choice1:
         type: choice
+        required: true
         description: Make a choice
         options:
         - foo
