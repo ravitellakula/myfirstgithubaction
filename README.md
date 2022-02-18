@@ -14,5 +14,5 @@
 | Dev    | :white_check_mark:                | :x:               |
 | QA     | :white_check_mark:                | :x:               |
 | STG    | :white_check_mark: (`with proxy`) | :x:               |
-| PROD   | :white_check_mark: (`with proxy`) | :x:               |
+| PROD   | :white_check_mark: (`with proxy`) | :heavy_check_mark:               |
 
