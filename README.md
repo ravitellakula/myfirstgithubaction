@@ -11,7 +11,7 @@
 
 | DC/DB  | Non-Prod MCDM | Prod MCDM | 
 | ------ | ---------------- | ---------------- | 
-| Dev    | :heavy_check_mark:                | ⭐                |
+| Dev    | :white_check_mark:                | ⭐                |
 | QA     | :heavy_check_mark:                | ⭐                |
 | STG    | :heavy_check_mark:                | ⭐                |
 | PROD   | :heavy_check_mark:                | ⭐                |
