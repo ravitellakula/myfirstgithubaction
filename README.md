@@ -11,8 +11,8 @@
 
 | DC/DB  | Non-Prod MCDM | Prod MCDM | 
 | ------ | ---------------- | ---------------- | 
-| Dev    | :white_check_mark:                | ⭐                |
-| QA     | :white_check_mark:                | ⭐                |
-| STG    | :white_check_mark: (`with proxy`) | ⭐                |
-| PROD   | :white_check_mark: (`with proxy`) | ⭐                |
+| Dev    | :white_check_mark:                | :x:               |
+| QA     | :white_check_mark:                | :x:               |
+| STG    | :white_check_mark: (`with proxy`) | :x:               |
+| PROD   | :white_check_mark: (`with proxy`) | :x:               |
 
