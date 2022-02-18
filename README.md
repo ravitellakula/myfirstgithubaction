@@ -13,6 +13,6 @@
 | ------ | ---------------- | ---------------- | 
 | Dev    | :white_check_mark:                | ⭐                |
 | QA     | :white_check_mark:                | ⭐                |
-| STG    | :white_check_mark:                | ⭐                |
-| PROD   | :white_check_mark                | ⭐                |
+| STG    | :white_check_mark: 'with proxy'   | ⭐                |
+| PROD   | :white_check_mark: 'with proxy'   | ⭐                |
 
