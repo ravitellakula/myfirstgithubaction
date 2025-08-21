@@ -20,9 +20,15 @@ jobs:
            import platform
            print (platform.processor())    
 
+  add-delay:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sleep 15 secs
+        run: sleep 15
+
   run-bash-command: 
      runs-on: windows-latest
-     needs: run-shell-command
+     needs: [run-shell-command, add-delay]
      steps:
        - name: Directory Powershell
          run: Get-Location
