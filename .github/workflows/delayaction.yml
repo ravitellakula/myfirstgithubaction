@@ -29,6 +29,10 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
+      # Add delay for 15 secs
+      - name: Sleep 15 secs
+        run: sleep 15s   
+
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
