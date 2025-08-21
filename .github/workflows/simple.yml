@@ -25,6 +25,7 @@ jobs:
     steps:
       - name: Sleep 15 secs
         run: sleep 15
+        shell: bash
 
   run-bash-command: 
      runs-on: windows-latest
